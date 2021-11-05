@@ -4,7 +4,9 @@ import { Button, Modal } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function List({ Items, handleDelete,handleShow ,setId,show,handleClose,id}) {
-
+    if (Items.length === 0) {
+        return <div className="no">No Todos..!!!</div>;
+      }
 
     return (
         <div>

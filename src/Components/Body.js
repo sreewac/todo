@@ -1,6 +1,6 @@
 import React from 'react'
 import './Body.css'
-function Body({InputChange,handleAdd,inputTxt,error}) 
+function Body({InputChange,handleAdd,error,inputTxt}) 
 
 {
     return (
