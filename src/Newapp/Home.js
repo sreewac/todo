@@ -10,30 +10,25 @@ function Home() {
 
     return (
         <div>
-         <div>
-        <Header/> 
-         </div>
-         <div className="wrapper">
-             <div>
-             <ControlledCarousel/>
-             </div>
-             <div>
-                 <Footer/>
-             </div>
-        
-         </div>
-         
-        
-        
-               
-               
-            
-           
-            
-        
-  
-    
-            
+
+            <Header />
+            <ControlledCarousel />
+            <Footer />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     )
 }

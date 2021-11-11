@@ -1,9 +1,11 @@
 import React from 'react'
+import Logobar from './Component/Logobar'
 
 function Main() {
     return (
         <div>
-            <h6>hy</h6>
+            <Logobar/>
+            
         </div>
     )
 }

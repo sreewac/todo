@@ -25,15 +25,11 @@ function Header() {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-
-
-
-
                         </Nav>
                         <Form className="d-flex">
                             <Link to='/signin'>
 
-                            <Button variant="secondary">Sign In</Button>
+                            <Button disabled={true} variant="secondary">Sign In</Button>
                             </Link>
                         </Form>
                     </Navbar.Collapse>

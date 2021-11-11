@@ -1,7 +1,8 @@
 import React from 'react'
 import {Route,Routes} from 'react-router-dom' 
 import Home from './Home'
-import Login from './Login'
+import Main from './Main'
+import Signup from './Signup'
 
 
 function Navigation() {
@@ -9,7 +10,8 @@ function Navigation() {
         <div>
             <Routes>
                 <Route exact path="/" element={<Home/>}></Route>
-                <Route  path="/signin" element={<Login/>}></Route>
+                <Route  path="/signin" element={<Signup/>}></Route>
+                <Route  path="/dash" element={<Main/>}></Route>
                 
 
 
