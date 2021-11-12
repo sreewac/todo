@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from './Component/Header'
-import ControlledCarousel from './Component/Carousel'
-import Footer from './Component/Footer'
+import Header from '../Component/Header'
+import ControlledCarousel from '../Component/Carousel'
+import Footer from '../Component/Footer'
 
 
 

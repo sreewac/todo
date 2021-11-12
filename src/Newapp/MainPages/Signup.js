@@ -1,9 +1,9 @@
 import React from "react";
-import {useSign} from './CustomHook/useSign'
-import { login } from "./Services";
+import {useSign} from '../CustomHook/useSign'
+import { login } from "../Services";
 import { Row, Form, Col, Button } from 'react-bootstrap' 
-import Logobar from './Component/Logobar'
-import Footer from "./Component/Footer";
+import Logobar from '../Component/Logobar'
+import Footer from "../Component/Footer";
 
 function Signup() {
     const [handleChange, handleSubmit, error] = useSign({ login })
