@@ -10,7 +10,7 @@ import { login } from  '../Services'
       email: '',
       password: ''  
     })
-     const[error,setError] = useState(false)
+    const[error,setError] = useState(false)
     const navigate = useNavigate()
     
     const handleChange = (e) =>{
@@ -47,6 +47,7 @@ import { login } from  '../Services'
     }else{
         setError(true)
     }
+
     }
     return [
          handleChange,
@@ -56,5 +57,4 @@ import { login } from  '../Services'
 
 }
 
-export default useSign
 

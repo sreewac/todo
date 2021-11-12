@@ -15,20 +15,6 @@ function Home() {
             <ControlledCarousel />
             <Footer />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     )
 }
